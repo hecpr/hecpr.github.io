@@ -7,14 +7,6 @@
  * Date: 10-Sep-2012
  * Version: 1.0.1
  */
-if (!window['jQuery']) {
-	loadjQuery('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js');
-	jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
-}
-
-else { 
-	jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
-}
 
 /**
  * jQuery.ScrollTo - Easy element scrolling using jQuery.
