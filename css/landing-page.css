@@ -1,0 +1,402 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+/* INTRO ___________________________________*/
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 1.1em;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 5%;
+    color: #999;
+    line-height: 20px;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/hpr-logo3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.intro-message > h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+/* FLAGS ___________________________________*/ 
+
+.flags {
+    display: block;
+    padding-top: 2px;
+}
+
+.flag-item {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.flag-item img {
+    width: 20px;
+    height: 12px;
+}
+
+.flag-item img:hover {
+    opacity: .70;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        padding-top: 50px;
+        font-size: 3em;
+    }
+
+    .intro-message > h3 {
+        font-size: 1.2em;
+        padding: 0 40px;
+        line-height: 20px;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0px
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+
+/* CONTENT SECTIONS ___________________________________*/ 
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+}
+
+.content-section-c {
+    background-color: #012435;
+    padding: 50px 0;
+    
+}
+
+.content-section-d {
+    padding: 50px 0;
+}
+
+.content-section-c h3 {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding: 0 0 20px 0;
+}
+
+.content-section-c p {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.content-section-c img {
+    display: block;
+    margin: auto;
+}
+
+.rec-img {
+    text-align: right;
+}
+
+.rec-text {
+    padding-right: 10%;
+    padding-bottom: 50px;
+}
+
+.rec-text p {
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #666;
+    line-height: 20px;
+}
+
+.rec-text h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.item img {
+    display: block;
+    margin: auto;
+}
+
+.item h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato black", sans-serif;
+    font-weight: 800;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    color: #666;
+    padding-bottom: 5px;
+}
+
+.item p {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding: 0 50px;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: #666;
+    padding-bottom: 5%;
+}
+
+.section-heading {
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #999;
+    font-size: 1.8em;
+}
+
+.img-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.img-container img {
+    padding: 0 5px;
+}
+
+
+/* CONTACT SECTION ___________________________________*/ 
+
+.contact-section {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 250px;
+}
+
+.contact-section p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: left;
+}
+.point {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.point i {
+    color: #8BDD36;
+}
+.point-img{
+    display: inline-block;
+    width: 13%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.point-text {
+    display: inline-block;
+    width: 85%;
+}
+
+.contact-section .btn {
+    margin-top: 30px;
+}
+
+
+
+/* MEDIA QUERIES ___________________________________*/ 
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+    .rec-img {
+    text-align: center;
+    }
+    .rec-text p {
+    text-align: center;
+    }
+
+    .rec-text h3 {
+    text-align: center;
+    }
+
+    .rec-text {
+        padding: 0px 50px;
+    }
+
+    .contact-section {
+        padding: 0 150px;
+    }   
+
+    .content-section-a h3 {
+        padding-bottom: 30px;
+    }
+
+    .content-section-c {
+        overflow-x: hidden;
+    }
+
+    .content-section-d p {
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:767px) {
+
+    .contact-section {
+        padding: 0 25px;
+    }   
+
+    .content-section-c p {
+        margin: 15px 50px;
+    }
+
+    .content-section-c h3 {
+        text-align: center;
+    }
+
+    .content-section-c img {
+        padding-top: 50px;
+        max-width: 90%;
+    }
+
+    .content-section-c {
+        padding: 30px 0;
+    }
+
+    .content-section-a h3 {
+        padding-bottom: 30px;
+    }
+
+    .content-section-d {
+        padding: 50px 50px;
+    }
+
+    .flags {
+        display: block;
+        padding-top: 2px;
+    }
+
+    .flag-item {
+        display: inline-block;
+        width: 10%;
+        text-align: center;
+    }
+
+    .flag-item img {
+        width: 25px;
+        height: 17px;
+    }
+
+    .navbar li {
+        text-align: center;
+    }
+
+    .point {
+        padding: 10px 10px;
+    }
+
+    .point-img{
+        padding-right: 15px;
+    }
+
+    .point p {
+        margin: 0;
+    }
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #FFF;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+    text-align: center;
+}
