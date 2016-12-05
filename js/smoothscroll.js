@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+
 /**
  * SmoothScroll
  * This helper script created by DWUser.com.  Copyright 2012 DWUser.com.  
@@ -34,4 +34,3 @@ a=b.extend({},c.defaults,a);return a.lazy?this.bind(a.event,function(d){var c=b(
 jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
 
 
-});
